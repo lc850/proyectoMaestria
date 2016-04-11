@@ -12,8 +12,9 @@ use App\Http\Requests;
 class ejemploController extends Controller
 {
     public function index(){
-        $carreras=Carrera::all();
-    	return view('ejemplo', compact('carreras'));
+        return view ('welcome');
+        //$carreras=Carrera::all();
+    	//return view('ejemplo', compact('carreras'));
     }
 
     public function mostrarContacto(){
