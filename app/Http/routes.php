@@ -11,8 +11,8 @@
 |
 */
 
-Route::get('/', 'ejemploController@index');
-
+//Route::get('/', 'ejemploController@index');
+/*
 Route::post('/registra', 'ejemploController@registra');
 
 Route::get('/home', 'ejemploController@home');
@@ -36,8 +36,8 @@ Route::post('/actualizar/{id}', 'ejemploController@actualizar');
 Route::get('/generaPDF', 'ejemploController@generaPDF');
 
 Route::get('/alumnos/{id}', 'ejemploController@listaAlumnos');
-
-
+*/
+Route::get('/','@proyectoController@listaClientes');
 
 
 
