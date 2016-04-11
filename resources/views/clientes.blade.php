@@ -6,6 +6,8 @@
 		<link rel="stylesheet" href="{{ asset("css/bootstrapCerulean.css") }}" />
 	</head>
 	<body>
-		By Toscano
+		<table class="table table-hover">
+  		<tr>...</tr>
+        </table>
 	</body>
 </html>
