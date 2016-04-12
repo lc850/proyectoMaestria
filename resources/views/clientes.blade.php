@@ -6,8 +6,24 @@
 		<link rel="stylesheet" href="{{ asset("css/bootstrapCerulean.css") }}" />
 	</head>
 	<body>
-		<table class="table table-hover">
-  		<tr></tr>
-        </table>
+	<h1>Listado de Clientes</h1>
+		<table class="table table-stripped table-hover">
+			<thead>
+				<tr>
+					<th>Nombre Completo</th>
+					<th>Edad</th>
+					<th>Sexo</th>
+				</tr>
+			</thead>
+			<tbody>
+					@foreach($clientes as $a)
+						<tr>
+							<td>{{$a->Nombre.' '.$a->Apellido}}</td>
+							<td>{{$a->Edad}}</td>	
+							<td>{{$a->Sexo}}</td>
+						</tr>
+					@endforeach		
+			</tbody>
+		</table>
 	</body>
 </html>
