@@ -6,7 +6,7 @@
 	</head>
 	<body>
 		<table class="table table-hover">
-  		<tr>...</tr>
+  		<tr></tr>
         </table>
 	</body>
 </html>

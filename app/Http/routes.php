@@ -37,7 +37,7 @@ Route::get('/generaPDF', 'ejemploController@generaPDF');
 
 Route::get('/alumnos/{id}', 'ejemploController@listaAlumnos');
 */
-Route::get('/','@proyectoController@listaClientes');
+Route::get('/','proyectoController@Clientes');
 
 
 
