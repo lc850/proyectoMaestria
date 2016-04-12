@@ -1,0 +1,179 @@
+commit 10377c2ce4f620aa618133841b9f4df1c4a3a4dd
+Merge: ae618fd 352beb1
+Author: FACV <facv_facv@hotmail.com>
+Date:   Tue Apr 12 08:42:08 2016 -0600
+
+    Merge branch 'master' of https://github.com/lc850/proyectoMaestria
+
+commit ae618fd29b89e09d6ab44d641398876720e1d98b
+Merge: 0b5d878 8f6c571
+Author: FACV <facv_facv@hotmail.com>
+Date:   Tue Apr 12 08:42:02 2016 -0600
+
+    Correcion ENV
+
+commit 352beb17787155e5cea73409a6031cb764f06271
+Merge: e66864c 8f6c571
+Author: Luiss <santillan.itc@gmail.com>
+Date:   Tue Apr 12 08:40:08 2016 -0600
+
+    Merge remote-tracking branch 'origin/master'
+
+commit e66864c641d07c24071b9eb5ead402b0feb8f985
+Author: Luiss <santillan.itc@gmail.com>
+Date:   Tue Apr 12 08:39:16 2016 -0600
+
+    archivo env ignorado
+
+commit 8f6c571217fe49cfa67e6134ae1a783e1ed851d3
+Author: Itzel Soto <itzel_2609@hotmail.com>
+Date:   Tue Apr 12 08:37:01 2016 -0600
+
+    gitignore
+
+commit 0b5d878ca75a56b6287ade533303d215fac4a238
+Merge: 57ca1c0 7519d0d
+Author: FACV <facv_facv@hotmail.com>
+Date:   Tue Apr 12 08:36:44 2016 -0600
+
+    Agrego env al ignore
+
+commit eb3f8355b238a0841bb730cccb32645b59d01a33
+Author: Emmanuel Lopez <emmanuelop_17@hotmail.com>
+Date:   Tue Apr 12 08:30:53 2016 -0600
+
+    Conflicto env
+
+commit 57ca1c0e1f5339b73e09f0e4037b08a1079e7f42
+Merge: e1ae685 858d0d0
+Author: FACV <facv_facv@hotmail.com>
+Date:   Tue Apr 12 08:30:07 2016 -0600
+
+    Correccion del env
+
+commit 7519d0dafcb13206dc47aa3bfe3313468e64cd32
+Merge: 83cba02 858d0d0
+Author: Emmanuel Lopez <emmanuelop_17@hotmail.com>
+Date:   Tue Apr 12 08:28:12 2016 -0600
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 83cba025fb0cb13e2a36ceda3d1a8b7beaa909be
+Merge: e4909fd 5600c09
+Author: Emmanuel Lopez <emmanuelop_17@hotmail.com>
+Date:   Tue Apr 12 08:26:59 2016 -0600
+
+    env Configurado
+
+commit e1ae68507f58c19661ba5f3ddbedde7867f5d11c
+Author: FACV <facv_facv@hotmail.com>
+Date:   Tue Apr 12 08:25:59 2016 -0600
+
+    Ruta de Bd
+
+commit 858d0d0c360766095ae964551352ae4b8e0f7bcb
+Author: paul patea traseros <paul_lnz2@hotmail.com>
+Date:   Tue Apr 12 08:24:23 2016 -0600
+
+    correcion metodo listado
+
+commit e4909fd531805ca6ec86c690401128a5cffd07d4
+Author: Emmanuel Lopez <emmanuelop_17@hotmail.com>
+Date:   Tue Apr 12 08:20:44 2016 -0600
+
+    env configurado
+
+commit 5600c0959cef6f22689336ea5b69f9eaf5f59301
+Merge: 0e36078 cb348c8
+Author: Itzel Soto <itzel_2609@hotmail.com>
+Date:   Tue Apr 12 08:20:44 2016 -0600
+
+    Resolucion de conflictos
+
+commit cb348c8df08b794cb414452d4af9537e04cd640f
+Author: Luiss <santillan.itc@gmail.com>
+Date:   Tue Apr 12 08:18:00 2016 -0600
+
+    correccion de error ruta
+
+commit 0e3607839d2a540e65f0359d645e1741557ef50b
+Author: Itzel Soto <itzel_2609@hotmail.com>
+Date:   Tue Apr 12 08:17:53 2016 -0600
+
+    Modelo y errores
+
+commit 458f9eef01133cd2c4cbe51375197ca8f48e619f
+Merge: ae6e2dd fc8ae5d
+Author: Eduardo Millan <eduardo_32sharinga@hotmail.com>
+Date:   Mon Apr 11 09:01:20 2016 -0600
+
+    Merge branch 'master' of https://github.com/lc850/proyectoMaestria
+
+commit fc8ae5d485bbeb3c278353e30832677c76c7f870
+Merge: ee261fd 471152e
+Author: paul patea traseros <paul_lnz2@hotmail.com>
+Date:   Mon Apr 11 09:00:17 2016 -0600
+
+    Merge remote-tracking branch 'origin/master'
+
+commit ee261fdc1fb280f1f1a6c50fc198dfd716194d93
+Author: paul patea traseros <paul_lnz2@hotmail.com>
+Date:   Mon Apr 11 08:59:46 2016 -0600
+
+    Controlador y ruta
+
+commit ae6e2ddf446313e8d732387a364e8c7b52d63d35
+Merge: d294dd4 471152e
+Author: Eduardo Millan <eduardo_32sharinga@hotmail.com>
+Date:   Mon Apr 11 08:59:42 2016 -0600
+
+    Merge remote-tracking branch 'origin/master'
+
+commit d294dd48d3a9eb9a72833e3444fc6ef55498cf7a
+Author: Eduardo Millan <eduardo_32sharinga@hotmail.com>
+Date:   Mon Apr 11 08:59:11 2016 -0600
+
+    bootstrap
+
+commit 471152e9237200bbb364255c6995ae9057402f2b
+Merge: e010c45 816e1a4
+Author: FACV <facv_facv@hotmail.com>
+Date:   Mon Apr 11 08:54:42 2016 -0600
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 816e1a4e2b5215bd60687aede68ea08840b22ee2
+Author: Javier <frak_javi@hotmail.com>
+Date:   Mon Apr 11 08:51:33 2016 -0600
+
+    estructura tabla
+
+commit e010c45160551441677de8f7046beeaa807415b3
+Author: FACV <facv_facv@hotmail.com>
+Date:   Mon Apr 11 08:51:19 2016 -0600
+
+    Query para BD
+
+commit a493895f81b9988169bb8d88bc230437eec50f25
+Author: Omar Toscano <carlos.costarrica@gmail.com>
+Date:   Mon Apr 11 08:47:27 2016 -0600
+
+    Se crea vista clientes
+
+commit 5a56ac1ed0ebd3faf96ea902694389fae06ef314
+Author: Luiss <santillan.itc@gmail.com>
+Date:   Mon Apr 11 08:38:20 2016 -0600
+
+    Cambio a pagina principal Laravel
+
+commit 4f00a4434d6630248795784b960bcfb9de27deaf
+Author: Luiss <santillan.itc@gmail.com>
+Date:   Fri Apr 8 08:38:39 2016 -0600
+
+    Git ignore borrado
+
+commit bc81df276ec00fe7cec06b9c8e16c5d1480cd0cf
+Author: Luiss <santillan.itc@gmail.com>
+Date:   Fri Apr 8 08:33:46 2016 -0600
+
+    proyecto inicial
