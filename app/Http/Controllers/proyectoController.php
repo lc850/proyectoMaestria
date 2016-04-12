@@ -3,13 +3,13 @@
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Requests;
-use App\clientes;
+use App\Clientes;
 
 class proyectoController extends Controller
 {
-	public function listaClientes()
+	public function Clientes()
 	{
-		$listadoclientes = cliente::All();
-		return view('clientes',compact('listadoclientes'));
+		$clientes = Clientes::all();
+		return view('clientes',compact('clientes'));
 	}
 }
