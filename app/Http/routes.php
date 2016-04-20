@@ -37,9 +37,11 @@ Route::get('/generaPDF', 'ejemploController@generaPDF');
 
 Route::get('/alumnos/{id}', 'ejemploController@listaAlumnos');
 */
+//Route::get('/','proyectoController@paginaInicio');
 Route::get('/','proyectoController@listadoClientes');
-
-
+Route::get('/registrarAlumno','proyectoController@MostrarRegistro');
+Route::post('/listaAlumnos','proyectoController@RegistrarAlumno');
+//Route::get('/','');
 
 
 /*
