@@ -40,8 +40,6 @@ Route::get('/alumnos/{id}', 'ejemploController@listaAlumnos');
 Route::get('/','proyectoController@listadoClientes');
 
 
-
-
 /*
 |--------------------------------------------------------------------------
 | Application Routes
