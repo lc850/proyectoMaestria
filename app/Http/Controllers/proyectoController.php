@@ -16,4 +16,8 @@ class proyectoController extends Controller
 	public function Principal(){
 		return view('principal');
 	}
+
+	public function Maestros(){
+		return view('maestros');
+	}
 }
