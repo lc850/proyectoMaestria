@@ -12,4 +12,10 @@ class proyectoController extends Controller
 		$clientes = Clientes::all();
 		return view('clientes',compact('clientes'));
 	}
+	public function listadoMaterias()
+	{
+		$materias = Materias::all();
+		return view ('materias', compact('materias'));
+
+	}
 }

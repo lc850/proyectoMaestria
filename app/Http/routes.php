@@ -41,7 +41,6 @@ Route::get('/','proyectoController@listadoClientes');
 
 
 
-
 /*
 |--------------------------------------------------------------------------
 | Application Routes
