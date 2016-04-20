@@ -7,9 +7,13 @@ use App\Clientes;
 
 class proyectoController extends Controller
 {
-	public function listadoClientes()
+	/*public function listadoClientes()
 	{
 		$clientes = Clientes::all();
 		return view('clientes',compact('clientes'));
+	}*/
+
+	public function Principal(){
+		return view('principal');
 	}
 }
