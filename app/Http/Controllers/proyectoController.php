@@ -7,6 +7,7 @@ use App\Clientes;
 
 class proyectoController extends Controller
 {
+
 	public function paginaInicio()
 	{
 		return view('inicio');
