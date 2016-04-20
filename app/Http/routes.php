@@ -39,7 +39,7 @@ Route::get('/alumnos/{id}', 'ejemploController@listaAlumnos');
 */
 Route::get('/','proyectoController@Principal');
 
-Route::get('/materias','proyectoController@Materias');
+Route::get('/materias','proyectoController@listadoMaterias');
 
 Route::get('/maestros','proyectoController@Maestros');
 

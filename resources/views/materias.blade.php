@@ -18,9 +18,9 @@
 			<tbody>
 					@foreach($materias as $materia)
 						<tr>
-							<td>{{$materia->nombre}}</td>
-							<td>{{$materia->año}}</td>	
-							<td>{{$materia->semestre}}</td>
+							<td>{{$materia->NombreMateria}}</td>
+							<td>{{$materia->Anio}}</td>	
+							<td>{{$materia->Semestre}}</td>
 						</tr>
 					@endforeach		
 			</tbody>
