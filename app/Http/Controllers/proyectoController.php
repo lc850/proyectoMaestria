@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Clientes;
+use App\Maestros;
 
 class proyectoController extends Controller
 {
@@ -17,7 +18,8 @@ class proyectoController extends Controller
 		return view('principal');
 	}
 
-	public function Maestros(){
-		return view('maestros');
+	public function Maestros($id){
+		$maestros=Maestros::where('id_maestro', $id);
+        return view('maestros', compact('maestros'));
 	}
 }
