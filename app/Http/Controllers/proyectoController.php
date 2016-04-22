@@ -18,8 +18,8 @@ class proyectoController extends Controller
 		return view('principal');
 	}
 
-	public function Maestros(Request $datos){
-		$nombre=$datos->input('nombre');
+	public function Maestros(/*Request $datos*/){
+		/*$nombre=$datos->input('nombre');
         $edad=$datos->input('edad');
         $sexo=$datos->input('sexo');
         $materia=$datos->input('materia');
@@ -29,10 +29,10 @@ class proyectoController extends Controller
         $nuevo->edad=$edad;
         $nuevo->sexo=$sexo;
         $nuevo->materia=$materia;
-        $nuevo->save();
+        $nuevo->save();*/
 
-        $maestro=Maestros::all();
+        $maestros = Maestros::all();
 
-        return view('maestros', compact('maestro'));
+        return view('maestros', compact('maestros'));
 	}
 }
