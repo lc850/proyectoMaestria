@@ -2,7 +2,7 @@
 
 @section('maestros')
 	<div class="col-xs-12">
-		<table class="table table-striped ">
+		<table class="table table-striped table-bordered table-hover table-responsive">
 			<thead>
 				<tr>
 					<th>#</th>
