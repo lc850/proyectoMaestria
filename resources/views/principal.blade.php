@@ -33,6 +33,9 @@
 				</p>
 			</div>
 		</div>
+		<div class="row">
+			@yield('maestros')
+		</div>
 		<footer class="row">
 			<div class="col-xs-12 text-center">
 				UAS 2016 &copy;
