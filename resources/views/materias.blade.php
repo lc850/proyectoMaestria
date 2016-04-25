@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html lang="es">
-	<head>
-		<meta charset="UTF-8">
-		<title>Lista Materias</title>
-		<link rel="stylesheet" href="{{ asset("css/bootstrapCerulean.css") }}" />
-	</head>
-	<body>
+@extends('principal')
+@section('materias')
 	<h1>Listado de las Materias</h1>
 		<table class="table table-stripped table-hover">
 			<thead>
@@ -27,3 +21,4 @@
 		</table>
 	</body>
 </html>
+@stop
