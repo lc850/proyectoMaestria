@@ -6,7 +6,7 @@
 		<link rel="stylesheet" href="{{ asset("css/bootstrapCerulean.css") }}" />
 	</head>
 	<body>
-	<h1>Listado de Materias</h1>
+	<h1>Listado de las Materias</h1>
 		<table class="table table-stripped table-hover">
 			<thead>
 				<tr>
