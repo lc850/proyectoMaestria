@@ -43,32 +43,20 @@ class proyectoController extends Controller
         $clientes = Clientes::all();
 		return view('listaAlumnos',compact('clientes'));
 	}
-	public function Principal()
-	{
+
+	public function Principal() {
 		return view('info');
 	}
 
-	public function Maestros(/*Request $datos*/){
-		/*$nombre=$datos->input('nombre');
-        $edad=$datos->input('edad');
-        $sexo=$datos->input('sexo');
-        $materia=$datos->input('materia');
-
-        $nuevo= new Maestros();
-        $nuevo->nombre=$nombre;
-        $nuevo->edad=$edad;
-        $nuevo->sexo=$sexo;
-        $nuevo->materia=$materia;
-        $nuevo->save();*/
-
+	public function Maestros() {
         $maestros = Maestros::all();
 
         return view('maestros', compact('maestros'));
 	}
-	public function listadoMaterias()
-	{
-		$materias = Materias::all();
-		return view ('materias', compact('materias'));
 
+	public function listadoMaterias() {
+		$materias = Materias::all();
+
+		return view ('materias', compact('materias'));
 	}
 }
