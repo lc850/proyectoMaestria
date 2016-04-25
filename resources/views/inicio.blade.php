@@ -10,8 +10,8 @@
 		<div class="row">
 			<div class="col-xs-12">
 				<ul class="nav nav-pills">
-					<li role="presentation" class="active"><a href="{{url('/')}}">Listado Alumnos</a></li>
-					<li role="presentation" class="active"><a href="{{url('/listadoAlumnos')}}">Listado Alumnos</a></li>
+					
+					<li role="presentation"><a href="{{url('/')}}">Listado Alumnos</a></li>
 					<li role="presentation"><a href="{{url('/registrarAlumno')}}">Registro de Alumnos</a></li>
 					</ul>
 			</div>
