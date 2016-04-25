@@ -51,11 +51,7 @@ Route::get('/maestros','proyectoController@Maestros');
 
 Route::get('/alumnos','proyectoController@Alumnos');
 
-<<<<<<< HEAD
 
-
-=======
->>>>>>> materias
 /*
 |--------------------------------------------------------------------------
 | Application Routes
