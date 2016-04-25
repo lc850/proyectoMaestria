@@ -15,7 +15,7 @@ class proyectoController extends Controller
 	}*/
 
 	public function Principal(){
-		return view('principal');
+		return view('info');
 	}
 
 	public function Maestros(/*Request $datos*/){
