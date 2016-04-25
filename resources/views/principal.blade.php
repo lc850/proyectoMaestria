@@ -14,7 +14,7 @@
             </div>
             <div class="col-xs-12">
 				<ul class="nav nav-pills">
-			    	<li class="active" role="presentation"><a>Principal</a></li>
+			    	<li  role="presentation"><a href="{{url('/')}}">Principal</a></li>
 			    	<li  role="presentation"><a href="{{url('/materias')}}">Materias</a></li>
 			    	<li  role="presentation"><a href="{{url('/maestros')}}">Maestros</a></li>
 			    	<li  role="presentation"><a href="{{url('/alumnos')}}">Alumnos</a></li>
