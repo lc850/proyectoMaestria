@@ -38,8 +38,13 @@ class proyectoController extends Controller
         $objAlumno->Sexo = $Sexo;
         $objAlumno->save();
 
+
         $clientes = Clientes::all();
 		return view('listaAlumnos',compact('clientes'));
+	}
+	public function Principal()
+	{
+		return view('info');
 	}
 
 	public function Maestros(/*Request $datos*/){
