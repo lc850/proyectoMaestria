@@ -24,6 +24,7 @@
 		<div class="row">
 			@yield('maestros')
 			@yield('info')
+			@yield('materias')
 		</div>
 		<footer class="row">
 			<div class="col-xs-12 text-center">

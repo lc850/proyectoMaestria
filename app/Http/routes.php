@@ -45,14 +45,17 @@ Route::post('/listaAlumnos','proyectoController@RegistrarAlumno');
 //Route::get('/','');
 
 
-Route::get('/materias','proyectoController@Materias');
+Route::get('/materias','proyectoController@listadoMaterias');
 
 Route::get('/maestros','proyectoController@Maestros');
 
 Route::get('/alumnos','proyectoController@Alumnos');
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> materias
 /*
 |--------------------------------------------------------------------------
 | Application Routes

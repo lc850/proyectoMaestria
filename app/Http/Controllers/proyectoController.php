@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Clientes;
+use App\Materias;
 use App\Maestros;
 
 class proyectoController extends Controller
@@ -63,5 +64,11 @@ class proyectoController extends Controller
         $maestros = Maestros::all();
 
         return view('maestros', compact('maestros'));
+	}
+	public function listadoMaterias()
+	{
+		$materias = Materias::all();
+		return view ('materias', compact('materias'));
+
 	}
 }
